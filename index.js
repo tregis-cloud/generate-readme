@@ -43,7 +43,7 @@ inquirer
     {
       type: "input",
       name: "contributing",
-      message: "Please list any badges.",
+      message: "Please identify anyone who contributed.",
     },
     {
       type: "input",
