@@ -54,7 +54,7 @@ inquirer
     {
       type: "input",
       name: "questions",
-      message: "Please enter frequently asked asked questions:",
+      message: "Please enter frequently asked questions:",
     },
   ])
   .then(function (response) {
