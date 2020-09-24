@@ -40,11 +40,7 @@ inquirer
       name: "license",
       message: "Please list any license restrictions:",
     },
-    {
-      type: "input",
-      name: "badges",
-      message: "Please list any badges:",
-    },
+
     {
       type: "input",
       name: "contributing",
@@ -54,6 +50,11 @@ inquirer
       type: "input",
       name: "tests",
       message: "Do you have any tests?",
+    },
+    {
+      type: "input",
+      name: "questions",
+      message: "Please enter frequently asked asked questions:",
     },
   ])
   .then(function (response) {

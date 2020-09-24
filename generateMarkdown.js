@@ -17,17 +17,18 @@ ${data.projectDescription}
 ${data.installation}
 ## Usage
 ${data.usage}
-![][]${data.images}
+![](${data.images}
 ## Credit
 ${data.credits}
 ## License
-${data.license}
-## Badges
-${data.badges}
+![](https://img.shields.io/badge/Lincense-${data.license}-green)
+
 ## Contributing
 ${data.contributing}
 ## Test
 ${data.tests}
+## Questions
+${data.questions}
 `;
 }
 
