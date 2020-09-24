@@ -26,24 +26,29 @@ inquirer
     },
     {
       type: "input",
+      name: "images",
+      message: "If you have images, please enter the location:",
+    },
+    {
+      type: "input",
       name: "credits",
       message:
-        "List all those who collaborated with you on this project including third party assets.",
+        "List all those who collaborated with you on this project including third party assets:",
     },
     {
       type: "input",
       name: "license",
-      message: "Please list ant license restrictions",
+      message: "Please list any license restrictions:",
     },
     {
       type: "input",
       name: "badges",
-      message: "Please list any badges.",
+      message: "Please list any badges:",
     },
     {
       type: "input",
       name: "contributing",
-      message: "Please identify anyone who contributed.",
+      message: "Please identify anyone who contributed:",
     },
     {
       type: "input",
