@@ -1,6 +1,6 @@
-# Generate READEME
+# Generate README
 ![](https://img.shields.io/badge/Lincense-MIT-green)  
-This project generates a README based on user input to a series of prompts.
+This project generates a README file based on responses given by the user.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -11,10 +11,10 @@ This project generates a README based on user input to a series of prompts.
 * [Test](#test)
 * [Questions](#questions)
 ## Installation
-No installation is required. Run node index.js and follow the prompts.
+No installation required.
 ## Usage
-After entering your responses to the prompts, a README file will be generated.
-![](./images/imgae1.png)
+Run "node index.js" in the directory where the "index.js" is. You will see a series of prompts, answer each one and a README will be created. 
+![](./images/image1.png)
 ## Credits
 NA
 ## License
@@ -22,6 +22,6 @@ MIT
 ## Contributing
 NA
 ## Test
-Run node index.js in the directory where index.js is located. You will see a series of prompts/questions. Answer each one. At the end you will see a Success! message on the console and your README will be generated. Verify the contents of the README.
+Run "node index.js" and answer each prompt/question. Upon completion, the console will messahe "Success!" and the README will be created. Check the README to verify that it was created as expected.
 ## Questions
-None
+No questions at this time.
